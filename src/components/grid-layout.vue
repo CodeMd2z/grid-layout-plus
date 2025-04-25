@@ -499,9 +499,10 @@ function resizeEvent(
     // this.$broadcast("updateWidth", this.width);
     emitter.emit('updateWidth', state.width)
   } else {
-    nextTick(() => {
-      state.isDragging = false
-    })
+    if (eventName)
+      nextTick(() => {
+        state.isDragging = false
+      })
   }
 
   if (props.responsive) responsiveGridLayout()
