@@ -1,5 +1,5 @@
 {
-  "name": "@corleone/grid-layout-plus",
+  "name": "@xcorleone/grid-layout-plus",
   "version": "1.0.7",
   "type": "module",
   "packageManager": "pnpm@9.14.2",

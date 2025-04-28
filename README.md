@@ -7,8 +7,8 @@
 <h1 align="center">Grid Layout Plus</h1>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/grid-layout-plus" target="_blank">
-    <img src="https://img.shields.io/github/package-json/v/qmhc/grid-layout-plus" alt="npm version"/>
+  <a href="https://www.npmjs.com/package/@xcorleone/grid-layout-plus" target="_blank">
+    <img src="https://img.shields.io/github/package-json/v/codemd2z/grid-layout-plus" alt="npm version"/>
   </a>
 </p>
 
