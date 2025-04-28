@@ -4,7 +4,8 @@
   "type": "module",
   "packageManager": "pnpm@9.14.2",
   "license": "MIT",
-  "author": "qmhc",
+  "author": "codemd2z",
+  "description": "<p align=\"center\">   <a href=\"https://grid-layout-plus.netlify.app/\" target=\"_blank\" rel=\"noopener noreferrer\">     <img src=\"./docs/public/grid-layout-plus.svg\" width=\"180\" style=\"width: 120px;\" />   </a> </p>",
   "scripts": {
     "build": "tsx scripts/build.ts",
     "build:docs": "pnpm -C docs build",
@@ -87,6 +88,14 @@
     "grid-layout",
     "vue-grid-layout"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeMd2z/grid-layout-plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CodeMd2z/grid-layout-plus/issues"
+  },
+  "homepage": "https://github.com/CodeMd2z/grid-layout-plus#readme",
   "dependencies": {
     "@vexip-ui/hooks": "^2.6.0",
     "@vexip-ui/utils": "^2.16.1",
@@ -150,5 +159,9 @@
     "patchedDependencies": {
       "conventional-changelog-angular@7.0.0": "patches/conventional-changelog-angular@7.0.0.patch"
     }
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
   }
 }
