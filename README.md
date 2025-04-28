@@ -12,6 +12,8 @@
   </a>
 </p>
 
+###### _Forked from [qmhc/grid-layout-plus](https://github.com/qmhc/grid-layout-plus)_
+
 ## What is Grid Layout Plus?
 
 Grid Layout Plus comes from [Vue Grid Layout](https://github.com/jbaysolutions/vue-grid-layout) and is migrated to Vue 3.
